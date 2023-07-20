@@ -16,9 +16,11 @@ function App() {
 
      <BrowserRouter>
         <Navbar></Navbar>
-        <Proizvodi></Proizvodi>
+      
         <Routes>
           <Route path='/' element={<Pocetna></Pocetna>}> </Route>
+          <Route path='/' element={<Proizvodi></Proizvodi>}> </Route>
+
           <Route path='/kontakt' element= {<Kontakt></Kontakt>}> </Route>
 
 
@@ -26,8 +28,6 @@ function App() {
 
 
         </Routes>
-
-
 <Footer></Footer>
   
   </BrowserRouter> 

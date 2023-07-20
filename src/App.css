@@ -1,3 +1,5 @@
+
+
 .product-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -40,4 +42,141 @@
 .product-card .price {
   font-weight: bold;
 }
+
+/* Kontakt.css */
+
+.kontakt-forma {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 7em;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.kontakt-forma h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.kontakt-wrapper {
+  margin-top: 3em; /* Dodajemo 3em margine odgore kako bismo odvojili kontakt formu od navbara */
+}
+
+/* Footer.css */
+
+.background {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2; /* Svetlo siva pozadina */
+}
+
+.text-footer {
+  text-align: center;
+  padding: 1em 0; /* Dodajte željeni razmak oko teksta */
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8); /* Svetlo siva pozadina sa prozirnošću */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #f2f2f2; /* Svetlo siva pozadina */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.modal button:hover {
+  background-color: #0056b3;
+}
+
+/* Dodajte ovaj stil za prozor */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8); /* Svetlo siva pozadina sa prozirnošću */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #f2f2f2; /* Svetlo siva pozadina */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.modal button:hover {
+  background-color: #0056b3;
+}
+
 
