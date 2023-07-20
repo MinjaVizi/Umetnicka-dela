@@ -11,12 +11,12 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function App() {
   return (
     <div>
+       
 
 
-        <BrowserRouter>
+     <BrowserRouter>
         <Navbar></Navbar>
         <Proizvodi></Proizvodi>
-
         <Routes>
           <Route path='/' element={<Pocetna></Pocetna>}> </Route>
           <Route path='/kontakt' element= {<Kontakt></Kontakt>}> </Route>
@@ -30,7 +30,7 @@ function App() {
 
 <Footer></Footer>
   
-        </BrowserRouter>
+  </BrowserRouter> 
     </div>
   );
 }

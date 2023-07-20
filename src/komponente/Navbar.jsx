@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div>
         <nav className="navbar navbar-light bg-light justify-content-between">
-  <Link to= '/'className="navbar-brand">Pocetna</Link>
-  <Link to= '/Kontakt'className="navbar-brand">Kontakt</Link>
+   <a href='/'className="navbar-brand">Pocetna</a>
+  <a href='/Kontakt'className="navbar-brand">Kontakt</a>
 
   <form className="form-inline">
     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
